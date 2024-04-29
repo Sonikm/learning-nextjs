@@ -35,3 +35,46 @@ and also provides additional features that enable you to build production-ready 
 - ES6 + features
 - React fundamentals
 
+# Before We Start
+## React Server Components (RSC)
+
+- React Server Components is a new architecture introduced by the React team in version 18 which was quickly embraced by NEXT.js
+
+- The architecture introduces a new way of creating React compoenents, splitting them into two types:
+   - Server components
+   - Client Components
+
+## React Server Components contd
+
+### Server Components
+- In next js all components are server components by default
+- They have ability to run task like reading files or fetching data from a database
+- However, they don't have the abiity to use hooks or handle users interactions
+
+### Client Components
+- To create a Client Components, It's necessary to add "use client" at the top of the components file
+
+- Client components can't perform taks like reading files, but they have the ability to use hooks and manage interactions
+
+## React Server Components and Routing
+
+- We'll explore examples where we use server components thar
+ await certain actions to finilize before rendering content on the screen
+
+- We'll also see examples where we use client components to leverage hooks from the routing module
+
+# Routing
+
+- Next js has a file-system based routing mechanism
+- URL paths that users can access in the browser are defined by files and folders in your codebase
+
+## Routing Conventions
+
+- All routes must be placed inside the app folder
+- Every file that corresponds to a path must be named page.js or page.jsx
+- Every file corresponds to a path segment in the browser URL
+
+
+
+
+
