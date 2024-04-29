@@ -74,7 +74,17 @@ and also provides additional features that enable you to build production-ready 
 - Every file that corresponds to a path must be named page.js or page.jsx
 - Every file corresponds to a path segment in the browser URL
 
-
+-  Nested folder structure 
+   - app
+      - blog
+          - first
+             - page.tsx
+          - second
+             - page.tsx
+      - about
+      - profile
+      - page.tsx
+      - layout.tsx
 
 
 
