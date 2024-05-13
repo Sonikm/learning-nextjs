@@ -86,5 +86,9 @@ and also provides additional features that enable you to build production-ready 
       - page.tsx
       - layout.tsx
 
+### Dynamic Routes  
+- A Dynamic Segment can be created by wrapping a folder's name in square brackets: [folderName]. For example, [id] or [slug].   
+- Dynamic Segments are passed as the params prop to layout, page, route, and generateMetadata functions. 
+
 
 
