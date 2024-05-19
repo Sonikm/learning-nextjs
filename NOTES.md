@@ -93,7 +93,7 @@ and also provides additional features that enable you to build production-ready 
 ### Dynamic Nested Routes
    - app
       - products
-          - [productId]
+          - [productId] 
              - page.tsx
              - reviews
                 - [reviewsId]
