@@ -1,4 +1,18 @@
 import { notFound } from "next/navigation";
+import { Metadata } from "next";
+type Props = {
+  params: {
+    productId: string;
+  };
+};
+
+// Dynamic metadata
+export const generateMetadata = ({ params }: Props): Metadata => {
+  return {
+    title: `Product ${params.productId}`,
+  };
+};
+
 
 export default function ProductDetails({
   params,

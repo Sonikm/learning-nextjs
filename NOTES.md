@@ -125,3 +125,29 @@
 - For sorting and grouping files in code editors
 - And finally, for avoiding potential naming conflicts with future Next.js file conventions
 - If you to include an underscore in URL segments, you can prefix the folder name with "%5F," which is the URL-encoded from of an underscore
+
+## Route Group Layout
+
+### Route Group uses:
+- To organize your project in a manner that doesn't affect the URL
+- To selectively apply a layout to certain segments while leaving others unchanged
+
+## Routing Metadata
+- Ensuring proper search engine optimization (SEO) is crucial for increasing visibility and attracting users
+- Next.js introduced the Metadata API which allows you to define metadata for each page
+- Metadata ensures accurate and relevent information is displayed when your pages are shared or indexed
+
+### Configuring Metadata
+- Export a static metadata Object
+- Export a dynamic generate Metadata function
+
+### Metadata rules
+- Both  layout.tsx and page.tsx files acn export metadata  is read in order, from the root level down to the final page level
+- When there's metadata in multiple places for the same route, they get compbined, but page metadata will replace layout metadata if they have the same properties
+
+### Title Metadata 
+- The title field's primary purpose is to define the document title 
+- It can be either a string or an object
+
+
+
